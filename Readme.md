@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Кристина Цвет](https://up.htmlacademy.ru/adaptive/16/user/902901).
-* Наставник: [Малик Киров].
+* Наставник: [Малик Киров] (https://up.htmlacademy.ru/adaptive/16/user/17217).
 
 ---
 
