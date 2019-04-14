@@ -1,0 +1,44 @@
+.target-block {
+  background-color: #f2f2f2;
+
+  padding-top: 30px;
+  padding-left: 21px;
+  margin-bottom: 20px;
+
+  outline: 2px dashed rgb(45, 211, 211);
+
+  &__title {
+    @include font(24px, 37px);
+    text-align: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $black-one;
+
+    margin: 0;
+  }
+
+  &__info {
+    font-family: $arial;
+    @include font(14px, 18px);
+    text-align: left;
+    color: $greyish;
+    margin: 0;
+  }
+
+  &__button {
+    display: block;
+
+    @include font(16px, 16px);
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $black-one;
+  }
+}
+
+
+
+
+
+
+
