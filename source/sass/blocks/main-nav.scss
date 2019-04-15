@@ -1,0 +1,19 @@
+.main-nav {
+  outline: 2px dashed rgb(255, 71, 206);
+}
+
+.main-nav__toggle {
+  padding: 0;
+  border: none;
+
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.main-nav__list {
+  text-align: center;
+  list-style: none;
+
+  @include zeroing();
+}

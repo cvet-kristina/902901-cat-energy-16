@@ -1,0 +1,8 @@
+.main-title {
+  @include font(36px, 60px);
+  text-align: left;
+  font-weight: normal;
+  color: $black-one;
+
+  margin: 0;
+}

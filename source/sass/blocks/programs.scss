@@ -1,0 +1,19 @@
+.programs {
+  color: #ffffff;
+  text-align: center;
+
+  outline: 2px dashed rgb(20, 221, 221);
+}
+
+.programs__title {
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.programs__slogan {
+  @include font(14px, 14px);
+  text-transform: uppercase;
+
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.about-product {
+  margin-bottom: 40px;
+  outline: 2px dashed rgb(6, 151, 151);
+}
+
+.about-product__list {
+  @include zeroing();
+  list-style: none;
+}
+
+.about-product__text {
+  font-family: $arial;
+
+  @include font();
+  text-align: left;
+  color: $greyish;
+  margin: 0;
+}
