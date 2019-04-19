@@ -6,34 +6,62 @@
   margin-bottom: 20px;
 
   outline: 2px dashed rgb(45, 211, 211);
+}
 
-  &__title {
-    @include font(24px, 37px);
-    text-align: left;
-    font-weight: normal;
-    text-transform: uppercase;
-    color: $black-one;
+.target-block__title {
+  @include font(24px, 37px);
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $black-one;
 
-    margin: 0;
+  margin: 0;
+}
+
+.target-block__info {
+  font-family: $arial;
+
+  @include font(14px, 18px);
+  text-align: left;
+  color: $greyish;
+  margin: 0;
+}
+
+.target-block__button {
+  display: block;
+
+  @include font(16px, 16px);
+
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $black-one;
+}
+
+@media (min-width: $tablet) {
+  .target-block {
+    padding-left: 52px;
+    padding-top: 80px;
+    padding-bottom: 60px;
   }
 
-  &__info {
-    font-family: $arial;
-
-    @include font(14px, 18px);
-    text-align: left;
-    color: $greyish;
-    margin: 0;
+  .target-block__title {
+    @include font(36px, 37px);
   }
 
-  &__button {
-    display: block;
+  .target-block__info {
+    width: 371px;
 
-    @include font(16px, 16px);
+    @include font(16px, 24px);
+  }
 
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: $black-one;
+  .target-block__button {
+    @include font(20px, 20px);
+  }
+}
+
+@media (min-width: $desktop) {
+  .target-block {
+    width: 520px;
   }
 }

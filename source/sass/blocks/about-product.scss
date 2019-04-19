@@ -16,3 +16,30 @@
   color: $greyish;
   margin: 0;
 }
+
+@media (min-width: $tablet) {
+  .about-product__title {
+    @include font(60px, 60px);
+  }
+
+  .about-product__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .about-product__item {
+    width: 354px;
+    // min-height: 355px;
+  }
+
+  .about-product__text {
+    @include font(16px, 24px);
+  }
+}
+
+@media (min-width: $desktop) {
+  .about-product__item {
+    width: 245px;
+  }
+}
