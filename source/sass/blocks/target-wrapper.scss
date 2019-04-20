@@ -1,3 +1,10 @@
 .target-wrapper {
   margin-bottom: 30px;
 }
+
+@media (min-width: $desktop) {
+  .target-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

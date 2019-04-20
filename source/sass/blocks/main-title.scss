@@ -6,3 +6,9 @@
 
   margin: 0;
 }
+
+@media (min-width: $tablet) {
+  .main-title {
+    @include font(60px, 60px);
+  }
+}
